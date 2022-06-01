@@ -1,0 +1,133 @@
+@charset "utf-8";
+* {
+    margin : 0;
+    padding : 0;
+}
+#page {
+    height :100vh;
+    display : flex;
+    flex-direction : column;
+    justify-content: space-between;
+    font-size : 14px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+#header {
+    height : 150px;
+}
+#header_div {
+    display : flex;
+    justify-content: space-between;
+    padding : 6px;
+}
+#header_div .left {
+    padding : 5px;
+    margin : 10px;
+}
+#header_div .right {
+    width : 300px;
+    display : flex;
+    justify-content: space-between;
+    padding : 5px;
+    margin : 10px;
+}
+#header .a {
+    padding : 0 7px;
+}
+#header a {
+    text-decoration: none;
+    color : black;
+}
+#header a:hover {
+    text-decoration: underline;
+}
+#header i {
+    cursor: pointer;
+}
+#header_div .bluebox {
+    box-sizing: border-box;
+    padding : 9px 23px;
+    min-width: 96px;
+    border : 1px solid transparent;
+    background-color: #1a73e8;
+    color : white;
+    border-radius: 6px;
+}
+#section {
+    height : 300px;
+}
+#section .img {
+    text-align: center;
+}
+#search {
+    width : 580px;
+    height : 45px;
+    display: flex;
+    margin : 0 auto;
+    position: relative;
+}
+#search input {
+    border : 1px solid #dfe1e5;
+    width : 580px;
+    height : 45px;
+    border-radius : 24px;
+}
+#search .fa-search {
+    position : absolute;
+    left : 20px;
+    top : 15px;
+}
+#search .fa-keyboard-o {
+    position : absolute;
+    right : 60px;
+    top : 15px;
+}
+#search .fa-microphone {
+    position : absolute;
+    right : 20px;
+    top : 15px;
+}
+#button {
+    text-align: center;
+}
+#button button {
+    width : 120px;
+    height : 36px;
+    background-color: #f8f9fa;
+    color : #3c4043;
+    border : 1px solid #f8f9fa;
+    border radius : 4px;
+    margin : 0 4px;
+    text-align : center;
+    cursor: pointer;
+}
+#div {
+    height : 100px;
+}
+#footer {
+    height : 100px;
+}
+#footer>div {
+    height : 100px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+}
+#footer_upper {
+    padding : 15px 30px;
+    border-bottom : 1px solid #dadce0;
+    color : #70757a;
+}
+#footer_lower {
+    padding : 15px 30px;
+    display : flex;
+    justify-content:space-between;
+}
+#footer_lower .b {
+    padding : 0 10px;
+}
+#footer_lower a {
+    text-decoration: none;
+    color : #70757a;
+}
+#footer_lower a:hover {
+    text-decoration: underline;
+}
